@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en' ng-app="tango">
+<head>
+    <title>TANGO.GG</title>
+    <link href='node_modules/bootstrap/dist/css/bootstrap.css' rel="stylesheet">
+    <link href='style.css' rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Tango.gg" width='35' height='32' src="http://i.imgur.com/xTnC46E.png"></a>
+        
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+  
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+  
+    <div class='container-fluid'>
+        <div class='row'>
+    <div ng-controller="TangoController as tango" class='col-md-12' >
+    <p class='lead'>Welcome to {{tango.website}}</p>
+        </div>
+        </div></div>
+  
+  
+    <div class='container'>        
+    <div class='row'>
+    <div class='col-md-2' id="stats">
+        <ul>
+        <li>Time</li>
+        <li>Attributes</li>
+        <li>Rating</li>
+        </ul>
+    </div>
+      
+    <div class'col-md-10'>
+        
+        <ul id="team" class="list-inline">
+        </ul>
+        <!-- warnings -->
+        <span class="label label-default">None</span>
+<span class="label label-primary">5</span>
+<span class="label label-success">4</span>
+<span class="label label-info">3</span>
+<span class="label label-warning">2</span>
+<span class="label label-danger">Warning</span>
+    </div>
+        </div>
+    
+      
+    <div class='row'>
+        <div class='col-md-3'><p>Filter</p>
+            <input id="filter" ng-model="query">
+            <ul id="options">
+              <a href="#"><li><i class='glyphicon glyphicon-briefcase'></i><p hidden>Save</p></li></a>
+              <a href="#"><li><i class='glyphicon glyphicon-random'></i><p hidden>Random</p></li></a>
+              <a href="#"><li><i class='glyphicon glyphicon-send'></i><p hidden>Share</p></li></a>
+            </ul>
+        </div>
+      
+      
+    <div ng-controller="HeroController as heroes" class='col-md-9' >
+        <ul id="heroes" >
+        <li ng-repeat="h in heroes.heroes | filter:query | orderBy: name"><img ng-src={{h.icon}}></li>            
+        </ul>
+    </div>
+    </div>
+    </div>
+    
+    <div class='footer'>
+        <div class='container-fluid'>
+            ©2015
+        </div>
+    </div>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="scripts/s.js"></script>"
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

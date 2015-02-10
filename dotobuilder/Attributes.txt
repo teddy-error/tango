@@ -1,0 +1,36 @@
+str :
+agi :
+int :
+carry : 
+	hard_carry :
+item_dependent : x
+ranged :
+melee :
+disabler  : 
+	skill_disable : target_disable : aoe_disable : long_disable : 
+initiator  : 
+nuker  :
+pusher  : x
+squishy  :
+tanky  :
+support_teamfight  :
+support_lane  :
+strong_lane :
+strong_fight :
+gank  :
+midas  :
+flexibile  :
+offlane  :
+trilane  :
+amplify :
+jungle :
+ancients :
+mana_dependant :
+disjointing :
+has_synergy_with_heroes :
+has_synergy_with_items :
+has_weakness_to_heroes :
+has_weakness_to_items :
+teleportation :
+immunity_penetrating :
+escaper :

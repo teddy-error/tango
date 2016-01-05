@@ -1,25 +1,37 @@
 str :
 agi :
 int :
-carry : 
-	hard_carry :
+core :
+uti :
 item_dependent : x
-ranged :
-melee :
-disabler  : 
-	skill_disable : target_disable : aoe_disable : long_disable : 
-initiator  : 
+ran :
+mel :
+disabler  :
+	skill_disable : target_disable : aoe_disable : long_disable : invuln_disable
+debuffs:
+	ms_debuff
+	as_debuff
+initiator  : init
 nuker  :
 pusher  : x
 squishy  :
-tanky  :
+dur  : durable
 support_teamfight  :
 support_lane  :
 strong_lane :
 strong_fight :
 gank  :
-midas  :
-flexibile  :
+"aoe_dmg_small"
+"aoe_dmg_big"
+heal_self
+heal_ally
+"self_deny" :
+items:
+	mek
+	midas  :
+	dagon
+
+flexible  :
 offlane  :
 trilane  :
 amplify :

@@ -1,3 +1,18 @@
-str :
-tanky :
-flexible :
+{
+  "name" : "Abaddon",
+  "has_attr" :
+    [
+      "str","mel","dur","uti","core","self_deny","heal_self","heal_ally",
+      "tar_spell_dmg","str_dispel","shield","aoe_dmg_small","pusher","init",
+      "ms_debuff","as_debuff","mek"
+    ],
+  "vulns" :
+    [
+      "invuln_disable","nuke","dagon","axe","ancient_apparition","doom"
+    ],
+  "advs" :
+    [
+      "aoe","death_prophet","gyrocopter","luna","queen_of_pain"
+    ]
+
+}

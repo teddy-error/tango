@@ -1,0 +1,16 @@
+{
+  "name" : "Alchemist",
+  "has_attr" :
+    [
+      "str","mel","dur","core"
+    ],
+  "vulns" :
+    [
+
+    ],
+  "advs" :
+    [
+      
+    ]
+
+}

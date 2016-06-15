@@ -3,7 +3,7 @@ import django
 django.setup()
 from heroes.models import Hero
 
-with open('../dotobuilder/stats_test.csv', newline='') as testfile:
+with open('../dotobuilder/herostats.csv', newline='') as testfile:
     heroes = csv.reader(testfile, delimiter=',')
     for hero in heroes:
         new_hero = Hero()
@@ -26,5 +26,5 @@ with open('../dotobuilder/stats_test.csv', newline='') as testfile:
         new_hero.turn_speed = hero[21]
         new_hero.model_size = hero[22]
         new_hero.regen_base = hero[23]
+        new_hero.save()
 
-        print(new_hero)

@@ -3,89 +3,89 @@ Axe
 Sven
 Pudge
 Tiny
-Sand_King
+Sand King
 Kunkka
 Slardar
 Beastmaster
 Tidehunter
-Dragon_Knight
-Wraith_King
+Dragon Knight
+Wraith King
 Clockwerk
 Lifestealer
 Omniknight
-Night_Stalker
+Night Stalker
 Huskar
 Doom
 Alchemist
-Spirit_Breaker
+Spirit Breaker
 Brewmaster
 Lycan
-Treant_Protector
-Chasos_Knight
+Treant Protector
+Chasos Knight
 Undying
 Io
-Centaur_Warrunner
+Centaur Warrunner
 Magnus
 Timbersaw
 Abaddon
 Bristleback
 Tusk
-Elder_Titan
-Legion_Commander
-Earth_Spirit
+Elder Titan
+Legion Commander
+Earth Spirit
 Phoenix
 Anti-Mage
 Bloodseeker
-Drow_Ranger
-Shadow_Fiend
+Drow Ranger
+Shadow Fiend
 Juggernaut
 Razor
 Mirana
 Venomancer
 Morphling
-Faceless_Void
-Phantom_Lancer
-Phantom_Assassin
-Vengeful_Spirit
+Faceless Void
+Phantom Lancer
+Phantom Assassin
+Vengeful Spirit
 Viper
 Riki
 Clinkz
-Sniper_
+Sniper 
 Broodmother
-Templar_Assassin
+Templar Assassin
 Weaver
 Luna
 Spectre
-Bounty_Hunter
+Bounty Hunter
 Meepo
 Ursa
-Nyx_Assassin
+Nyx Assassin
 Gyrocopter
 Slark
-Lone_Druid
+Lone Druid
 Medusa
-Naga_Siren
+Naga Siren
 Terrorblade
-Troll_Warlord
-Ember_Spirit
-Crystal_Maiden
+Troll Warlord
+Ember Spirit
+Crystal Maiden
 Bane
 Puck
 Lich
-Storm_Spirit
+Storm Spirit
 Lion
 Windranger
-Witch_Doctor
+Witch Doctor
 Zeus
 Enigma
 Lina
 Necrophos
-Shadow_Shaman
+Shadow Shaman
 Warlock
 Tinker
-Queen_of_Pain
-Nature's_Prophet
-Death_Prophet
+Queen of Pain
+Nature's Prophet
+Death Prophet
 Enchantress
 Pugna
 Jakiro
@@ -93,17 +93,17 @@ Dazzle
 Chen
 Leshrac
 Silencer
-Dark_Seer
-Ogre_Magi
+Dark Seer
+Ogre Magi
 Batrider
 Rubick
-Ancient_Aparition
+Ancient Aparition
 Disruptor
 Invoker
-Keeper_of_the_Light
-Outworld_Devourer
-Skywrath_Mage
-Shadow_Demon
+Keeper of the Light
+Outworld Devourer
+Skywrath Mage
+Shadow Demon
 Techies
 Visage
 
